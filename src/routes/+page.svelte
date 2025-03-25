@@ -7,4 +7,4 @@
      `;
 </script>
 
-<pre class="text-destructive md:pr-24">{art}</pre>
+<pre class="text-destructive -translate-x-[12%]">{art}</pre>
