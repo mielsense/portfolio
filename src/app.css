@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+@import '@fontsource/pt-mono';
+
+@theme {
+	--color-background: #0b0b0f;
+	--color-forground: #e6e6e6;
+	--color-muted: #232323;
+	--color-primary: #e6e7a3;
+	--color-destructive: #d84f68;
+}
+
+:root {
+	background: var(--color-background);
+	color: var(--color-forground);
+
+	font-family: 'PT Mono', sans-serif;
+}
