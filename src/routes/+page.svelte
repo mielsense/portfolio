@@ -192,7 +192,16 @@
 	</div>
 
 	<!-- Cat Animation - Desktop only -->
-	<div class="absolute bottom-4 left-1/2 hidden -translate-x-1/2 lg:block">
-		<pre class="-translate-x-[12%] scale-80 text-center text-lime-200">{currentFrame}</pre>
+	<div class="absolute bottom-4 left-1/2 block hidden -translate-x-1/2 lg:block">
+		<div class="flex flex-col items-center">
+			<pre class="-translate-x-[12%] scale-90 text-center text-lime-200">{currentFrame}</pre>
+			<span class="text-center text-sm text-lime-200"
+				>local time - {new Date().toLocaleTimeString('en-EN', {
+					hour: 'numeric',
+					minute: 'numeric',
+					timeZone: 'Asia/Seoul'
+				})}</span
+			>
+		</div>
 	</div>
 </div>
